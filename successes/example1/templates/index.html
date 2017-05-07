@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <script>
+            var username = document.URL.substring(document.referrer.length + 14, document.URL.length);
+            var realName = unescape(username);
+        </script>
+    <head>
+    <body>
+        <h1>Hello, <script>document.write(realName)</script>!</h1>
+    </body>
+</html>
